@@ -1,0 +1,2 @@
+class LinkLocators:
+    Text = 'span'
