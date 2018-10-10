@@ -1,0 +1,23 @@
+{
+	"name" : "prod",
+	"address" : "URL_ADDRESS",
+	"username" : "",
+	"password" : "",
+	"followlink": "__home_page_after_login__",
+	"groups" : [		
+		{
+			"name": "GROUP_NAME_1",
+			"suffix": "_SUFFIX_1",
+			"sources": [
+				{"uddi" : "UNIQUE_ID", "name" : "SERVICE_NAME"},				
+			]
+		},	
+		{
+			"name": "GROUP_NAME_2",
+			"suffix": "_SUFFIX_2",
+			"sources": [
+				{"uddi" : "UNIQUE_ID", "name" : "SERVICE_NAME"},					
+			]
+		}		
+	]
+}
